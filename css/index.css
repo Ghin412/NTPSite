@@ -1,0 +1,121 @@
+body,html {
+    background-color: #dc3545;
+    height: 100%;
+}
+
+
+
+div.main-wrapper {
+    background-color: white;
+    margin: 25px;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Navigation */
+
+header.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+a:not([href]):not([tabindex]) {
+    color: white;
+}
+
+a.navLink {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-family: 'Chewy', cursive;
+    background-color: #dc3545;
+    color: white;
+    border: 2px solid #dc3545;
+}
+
+a:not([href]):not([tabindex]):hover {
+    color: #dc3545;
+}
+
+a.navLink:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+div#brand {
+    text-align: center;
+}
+
+span#brandText {
+    position: relative;
+    font-family: 'Chewy', cursive;
+    font-size: 50px;
+    color: #dc3545;
+}
+
+span#currentDate, span#festivalDate {
+    position: relative;
+    font-family: 'Chewy', cursive;
+    display: block;
+}
+
+/*Image*/
+
+/*Register Form*/
+
+div.form-ctn {
+    padding: 0px;
+    margin-top: 40px;
+}
+
+div#formContainer {
+    margin-top: 25px;
+}
+
+div#formInput {
+    width: 60%;
+    display:inline-block;
+    background-color: #dc3545;
+    padding:20px 10px;
+}
+
+input.form-control {
+    width: 100%;
+    height: 100%;
+    font-family: 'Chewy', cursive;
+    border-radius: 0%;
+}
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:2px solid #dc3545 ;
+}
+
+inpit.form-control:focus {
+    border-color: green;
+}
+
+div#formButton {
+    width:40%;
+    display:inline-block;
+}
+
+button.btn {
+    width: 100%;
+    border: 2px solid #dc3545;
+    font-family: 'Chewy', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding:25px 10px;
+}
+
+button.btn:hover {
+    background-color:white;
+    color: #dc3545;
+}
+
+
+
+
