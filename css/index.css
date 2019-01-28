@@ -39,6 +39,8 @@ a:not([href]):not([tabindex]):hover {
 a.navLink:hover {
     background-color: white;
     cursor: pointer;
+    color: #dc3545;
+    text-decoration: none;
 }
 
 div#brand {
@@ -131,6 +133,10 @@ button.btn:hover {
     font-family: 'Chewy', cursive;
 }
 
+span.about-span {
+    color:#dc3545;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 40px;
@@ -139,9 +145,7 @@ h2 {
     color: #dc3545
 }
 
-span {
-    color: #dc3545
-}
+
 
 #aboutText {
     font-size: 25px;
