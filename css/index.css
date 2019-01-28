@@ -121,6 +121,32 @@ button.btn:hover {
     color: #dc3545;
 }
 
+/* About Section */
+
+.container {
+    padding: 25px 30px;
+}
+
+.font {
+    font-family: 'Chewy', cursive;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #dc3545
+}
+
+span {
+    color: #dc3545
+}
+
+#aboutText {
+    font-size: 25px;
+}
+
 /* @media Querys*/
 
 
