@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <title> Site title </title>
+        <title> Brooklyn Film Festival </title>
+
+        <link rel="shortcut icon" type="image/png" href="../favicon.png"/>
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
@@ -19,7 +21,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     
+     
     </head>
     <body>
         <div class="main-wrapper">
@@ -28,8 +32,8 @@
                         <div class="col-lg-3 d-flex justify-content-center align-self-center">
                             <div class="mainMenu">
                                 <a class="navLink" href="#sectionAbout" data-target-href="#sectionAbout">About</a>
-                                <a class="navLink" href="#sectionMovies">Movies</a>
-                                <a class="navLink" href="#formButton">Register</a>
+                                <a class="navLink" href="#sectionMovies" data-target-href="#sectionMovies">Movies</a>
+                                <a class="navLink" href="#formButton" data-target-href="#formButton">Register</a>
                             </div>
                         </div>
                         <div class="col-lg-6" id="brand">
@@ -42,7 +46,7 @@
                 </div>          
             </header>
             <div class="container-fluid">
-                <img class="img-fluid" src="../img/index-img1.jpg">
+                <img class="img-fluid" src="../img/index-img.jpg">
             </div>
 
             <div class="form-ctn container">
@@ -62,7 +66,7 @@
                 <h2 id="aboutHeader" class="font">About</h2>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="../img/logo.png" alt="logo">
+                        <img class=" mx-auto d-block" src="../img/logo.png" alt="logo">
                     </div>
                     <div class="col-lg-8">
                         <p id="aboutText" class="font">
@@ -80,7 +84,60 @@
 
         <div class="section main-wrapper" id="sectionMovies">
             <div class="container">
-                <h2>Movies</h2>
+                <h2 id="sectionMovies">Movies</h2>
+                <div class="row">
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/pirates-of-caribbean.jpg" alt="movie" >
+                        <h3 class="movie-name">Pirates of Caribbean - Dead Man Tell No Tails</h3>
+                    </div>
+                    <div class="col-lg-4 movies ">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/12-years-a-slave.jpg" alt="movie">
+                        <h3 class="movie-name">12 Years a slave</h3>
+                    </div>
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/inglourious-basterds.jpg" alt="movie">
+                        <h3 class="movie-name">Inglourious Bastards</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/in-the-heart-of-the-sea.jpg" alt="movie">
+                        <h3 class="movie-name">In the heart of the sea</h3>
+                    </div>
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/the-social-network.jpg" alt="movie">
+                        <h3 class="movie-name">The Social Network</h3>
+                    </div>
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/warcraft.jpg" alt="movie">
+                        <h3 class="movie-name">Warcraft</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/star-wars.jpg" alt="movie">
+                        <h3 class="movie-name">Star Wars - The Last Jedi</h3>
+                    </div>
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/the-grinch.jpg" alt="movie">
+                        <h3 class="movie-name">The Grinch</h3>
+                    </div>
+                    <div class="col-lg-4 movies">
+                        <img class="movies-img mx-auto d-block" src="../img/movie-covers/aquaman.jpg" alt="movie">
+                        <h3 class="movie-name">Aquaman</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-wrapper" id="sectionSocial">
+            <div class="container social">
+                <div class="d-flex justify-content-center align-self-center">
+                    <a class="social-links" href="#!"><span class="fab fa-twitter"></span></a>
+                    <a class="social-links" href="#!"><span class="fab fa-facebook-f"></span></a>                
+                    <a class="social-links" href="#!"><span class="fab fa-instagram"></span></a>
+                    <a class="social-links" href="#!"><span class="fab fa-youtube"></span></a>
+                </div>
             </div>
         </div>
 
